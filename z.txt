@@ -1,0 +1,279 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Royal Event Management</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+padding:0;
+background-image:url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30");
+background-size:cover;
+background-attachment:fixed;
+color:white;
+}
+
+/* Header */
+
+header{
+background:rgba(0,0,0,0.8);
+text-align:center;
+padding:30px;
+}
+
+header h1{
+font-size:40px;
+letter-spacing:2px;
+}
+
+header p{
+font-size:18px;
+color:#ddd;
+}
+
+/* Navigation */
+
+nav{
+background:black;
+text-align:center;
+padding:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:18px;
+font-size:18px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:gold;
+}
+
+/* Sections */
+
+section{
+background:rgba(0,0,0,0.6);
+margin:25px;
+padding:30px;
+border-radius:10px;
+}
+
+h2{
+text-align:center;
+color:gold;
+}
+
+/* Button */
+
+.btn{
+background:gold;
+color:black;
+padding:12px 25px;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+transition:0.4s;
+}
+
+.btn:hover{
+background:orange;
+transform:scale(1.1);
+}
+
+/* Gallery */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+}
+
+.gallery img{
+width:100%;
+height:170px;
+border-radius:10px;
+transition:0.5s;
+}
+
+.gallery img:hover{
+transform:scale(1.1);
+box-shadow:0 0 10px gold;
+}
+
+/* Contact Form */
+
+form{
+text-align:center;
+}
+
+input, textarea{
+width:60%;
+padding:10px;
+margin:10px;
+border:none;
+border-radius:5px;
+}
+
+/* Footer */
+
+footer{
+background:black;
+text-align:center;
+padding:12px;
+margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Royal Event Management</h1>
+<p>We Plan Your Special Moments With Perfection</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#packages">Packages</a>
+<a href="#gallery">Gallery</a>
+<a href="#testimonials">Testimonials</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+
+<h2>Welcome to Royal Event Management</h2>
+
+<p>
+Royal Event Management is a professional event planning company dedicated to
+creating unforgettable celebrations. Our experienced team designs and manages
+events with creativity, innovation, and attention to detail.
+</p>
+
+<p>
+Whether it is a grand wedding, birthday celebration, corporate event, or
+college function, we transform your ideas into beautiful experiences.
+</p>
+
+<center>
+<button class="btn">Book Your Event</button>
+</center>
+
+</section>
+
+<section id="about">
+
+<h2>About Us</h2>
+
+<p>
+Royal Event Management is one of the leading event planning companies.
+We provide creative event solutions and professional management for weddings,
+birthday parties, and corporate events.
+</p>
+
+<p>
+Our mission is to make every celebration special and memorable with
+beautiful decorations, lighting, music and excellent hospitality.
+</p>
+
+</section>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+<ul>
+<li>Wedding Event Planning</li>
+<li>Birthday Party Organization</li>
+<li>Corporate Event Management</li>
+<li>College Function Planning</li>
+<li>Stage and Theme Decoration</li>
+<li>DJ and Music Arrangement</li>
+<li>Photography and Videography</li>
+<li>Catering and Guest Management</li>
+</ul>
+
+</section>
+
+<section id="packages">
+
+<h2>Event Packages</h2>
+
+<ul>
+<li><b>Silver Package:</b> Basic Decoration and Music</li>
+<li><b>Gold Package:</b> Decoration, DJ, Photography</li>
+<li><b>Platinum Package:</b> Full Event Management</li>
+</ul>
+
+</section>
+
+<section id="gallery">
+
+<h2>Event Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1511578314322-379afb476865">
+<img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678">
+<img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3">
+<img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce">
+<img src="https://images.unsplash.com/photo-1505238680356-667803448bb6">
+<img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3">
+
+</div>
+
+</section>
+
+<section id="testimonials">
+
+<h2>Client Testimonials</h2>
+
+<p>"Amazing wedding planning service!" – Rahul</p>
+<p>"Best birthday event management company." – Sneha</p>
+<p>"Professional team and perfect arrangements." – Amit</p>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p><b>Company Name:</b> Royal Event Management</p>
+<p><b>Email:</b> royalevents@gmail.com</p>
+<p><b>Phone:</b> 9876543210</p>
+<p><b>Address:</b> Pune, Maharashtra</p>
+
+<h3 style="text-align:center;">Send Us a Message</h3>
+
+<form>
+
+<input type="text" placeholder="Your Name"><br>
+<input type="email" placeholder="Your Email"><br>
+
+<textarea rows="4" placeholder="Your Message"></textarea><br>
+
+<button class="btn">Submit</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>© 2026 Royal Event Management | Web Page Designing Microproject</p>
+
+</footer>
+
+</body>
+</html>
+```
